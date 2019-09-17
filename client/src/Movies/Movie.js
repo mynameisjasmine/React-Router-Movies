@@ -24,8 +24,9 @@ const Movie = (props) => {
   // Uncomment this only when you have moved on to the stretch goals
    const saveMovie = () => {
      const addToSavedList = props.addToSavedList;
+     
       addToSavedList(movie)
-      
+      console.log("add to saved list:", addToSavedList);
    }
    
   if (!movie) {
